@@ -79,7 +79,8 @@ section p {
 
 section img {
     border-radius: 50%;
-    width: 50%;
+    width: 20%;
+    height: 20%;
     border: 3px solid #3F4551;
 
 }
@@ -135,6 +136,10 @@ footer {
       align-items: center;
       flex-direction: column;
       margin: 20px 20px auto 20px;
+    }
+
+    section img {
+        width: 50%;
     }
 
     main {

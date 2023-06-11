@@ -1,4 +1,4 @@
-# プロフィール
+# プロフィール (作成中)
 - プロフィール
     - 基本情報
 
@@ -21,6 +21,36 @@
 | 2023.05.13 | LinuC-1 |
 
 ## 業務外活動
+- [AWS認定資格 ソリューションアーキテクトアソシエイトの教科書: 合格へ導く虎の巻 Kindle版](https://www.amazon.co.jp/dp/B0BCPNZ9GJ?&linkCode=sl1&tag=kyrieee-22&linkId=de21025e80e1f7bb93c947493f8b549d&language=ja_JP&ref_=as_li_ss_tl) 執筆に携わりました。
+    - 累計ダウンロード数は15,000冊に到達
+
+### 本業務を通して得られたこと: 
+ELB, Auto Scaling, Amazon EventBride, AWS Systems Managerの執筆に携わりました。
+見やすいドキュメント作成をすることが可能です。
+インプットだけでなく、意識的にアウトプットを日常から実施することで、ドキュメント作成(設計書など)においては特に役立てるかと思います。
+
+- AWSハンズオン本作成プロジェクト 執筆に携わっています。
+- プロジェクト管理進行: Notion, GitHub
+    - Notion: 
+        - Wikiなどを作成しナレッジの共有
+    - プロジェクト管理
+    - GitHub (コマンド): 
+        - ブランチを切りMarkdown形式で作成
+        - プルリクエストでレビュー依頼
+
+- 具体的に何をやっているか:
+    - メイン執筆者から依頼のあった部分執筆, 図解作成、改善, 文章構成確認、校正
+
+- 担当しているドキュメント: 
+    - DBeaverを使用したプライベートサブネットに配置したEC2を経由したRDS接続 (執筆)
+    - CloudFormationの解説 (執筆)
+    - パッチ適用で既知の脆弱性に対策できるが、未知の脆弱性に対策できない (図解)
+    - Amazon Inspectorがどういう仕組みで脆弱性をチェックしているか (執筆)
+
+### 本業務を通して得られたこと: 
+- AWS公式ドキュメントの読み込み、そこから読者に対して解釈しやすい文章作成の作成しますが、まずAWS公式ドキュメントを熟読 -> 自分なりに解釈した文章にアウトプットをすることで、担当したAWSリソースの深堀りができたことで、知識の定着を定着させることができました。
+併せて、ハンズオンの手順を作成するドキュメントもありますので、構築する作業も併せて実現できました。
+
 
 
 ## 技術スタック
@@ -42,7 +72,6 @@
     - Git
     - GitHub
     - Notion
-    - VisualStudioCode
 
 ### 実務経験はないが独学している、または個人で使用経験あり
 
@@ -53,6 +82,7 @@
     - MySQL
 
 - AWS: 
+    - 
     - Amazon EC2
     - Amazon RDS
     - Amazon Virtual Private Cloud
@@ -61,6 +91,7 @@
     - Amazon Simple Storage Service
     - Amazon Elastic Load Balancing
     - Amazon Route 53
+    - Amazon Inspector
 
 - コンテナ: 
     - Docker

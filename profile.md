@@ -54,6 +54,7 @@ ELB, Auto Scaling, Amazon EventBride, AWS Systems Managerの執筆に携わり�
     - パッチ適用で既知の脆弱性に対策できるが、未知の脆弱性に対策できない (図解)
     - Amazon Inspectorがどういう仕組みで脆弱性をチェックしているか (執筆)
     - Systems ManagerのRun Commandでできること ログをS3へ出力するためには (執筆)
+    - Terraformの概要とTerraformとCloudFormationなどとの違いについて (執筆)
 
 ### 本業務を通して得られたこと: 
 - AWS公式ドキュメントの読み込み、そこから読者に対して解釈しやすい文章作成をしますが、まずAWS公式ドキュメントを熟読 -> 自分なりに解釈した文章にアウトプットをすることで、担当したAWSリソースの深堀りができたことで、知識の定着を定着させることができました。

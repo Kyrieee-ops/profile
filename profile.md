@@ -30,8 +30,24 @@
 
 ## 職務経歴詳細
 ### 株式会社エージェントグロー(2022/11~現在)
-### 職務内容
-金融系基盤更改案件にて運用設計エンジニアとして従事。
+
+## 職務内容1
+電気ガスの小売り案件にてAWS設計構築エンジニアとして従事 (2024/01～)
+
+### 実績 (経験した業務)
+基本設計において以下を担当
+- 性能設計書作成
+- システム構成図作成
+
+### 詳細 (基本設計フェーズ)
+性能設計書の作成では性能対策の内容について作成。
+具体的にはEC2, EBS, コンテナ, RDSに対してAWSのベストプラクティクスを参考に性能対策項目の洗い出しを実施。
+
+システム構成図の作成では各基本設計書から内容を洗い出し、本番環境/検証環境/開発環境各構成図を作成。
+
+
+## 職務内容2
+金融系基盤更改案件にて運用設計エンジニアとして従事 (2022/11～2023/12/31まで)
 
 ### 実績 (経験した業務)
 - 運用設計書作成 -> 運用手順書作成 -> 運用テスト仕様書作成 (一部) -> 運用テスト
@@ -94,7 +110,9 @@ spreadsheetで管理している表から対象のクライアント、作業日
 
 
 ## 業務外活動
-###  [AWS認定資格 ソリューションアーキテクトアソシエイトの教科書: 合格へ導く虎の巻 Kindle版](https://www.amazon.co.jp/dp/B0BCPNZ9GJ?&linkCode=sl1&tag=kyrieee-22&linkId=de21025e80e1f7bb93c947493f8b549d&language=ja_JP&ref_=as_li_ss_tl) 
+### 技術本の執筆経験_1
+- [AWS認定資格 ソリューションアーキテクトアソシエイトの教科書: 合格へ導く虎の巻 Kindle版](https://www.amazon.co.jp/dp/B0BCPNZ9GJ?&linkCode=sl1&tag=kyrieee-22&linkId=de21025e80e1f7bb93c947493f8b549d&language=ja_JP&ref_=as_li_ss_tl) 
+
 上記の執筆に携わりました。
  - 累計ダウンロード数は15,000冊に到達
 
@@ -103,7 +121,13 @@ ELB, Auto Scaling, Amazon EventBride, AWS Systems Managerの執筆に携わり�
 見やすいドキュメント作成をすることが可能です。
 インプットだけでなく、意識的にアウトプットを日常から実施することで、ドキュメント作成(設計書など)においては特に役立てるかと思います。
 
-### AWSハンズオン本作成プロジェクト執筆に携わりました
+### 技術本の執筆経験_2
+- [AWSで実践するEC2の脆弱性対応: 脆弱性ってなんですか？でも大丈夫！EC2の脆弱性対応を知識0からEC2脆弱性をハンズオン対応](https://amzn.to/3TNRer2)
+
+- [CodeシリーズでハッピーなCI/CDを構築しよう【AWSハンズオン虎の巻シリーズ】](https://amzn.to/3IUuHCs)
+
+
+
 使用ツール: 
 
 - Notion, GitHub, Googleドキュメント, Googleスライド
@@ -143,9 +167,27 @@ AzureやGoogleCloudと比較しても、シェア率が一番高いため、情�
     - Windows10
     - MacOS
     - Ubuntu
+    - Red Had Enterprise Linux9
+    - Amazon Linux2023
 
 - データベース: 
     - Oracle
+    - MySQL
+
+- AWS: 
+    - Amazon Elastic Compute Cloud (EC2)
+    - Amazon Relational Database Service (RDS)
+    - Amazon Virtual Private Cloud (VPC)
+    - Amazon CloudFormation
+    - Amazon VPC Endpoint
+    - Amazon Simple Storage Service (S3)
+    - Amazon Elastic Load Balancing (ELB)
+    - Amazon Route 53
+    - AWS Certificate Manage (ACM)
+    - Amazon CloudFront
+    - AWS Network Firewall
+
+
 
 - 言語: 
     - VBA
@@ -156,11 +198,13 @@ AzureやGoogleCloudと比較しても、シェア率が一番高いため、情�
     - Git
     - GitHub
     - Notion
+    - Redmine
 
 ### 実務経験はないが独学している、または個人で使用経験あり
 
 - OS: 
-    - Red Had Linux
+    - Red Had Enterprise Linux8
+    - Amazon Linux2
 
 - データベース:
     - MySQL

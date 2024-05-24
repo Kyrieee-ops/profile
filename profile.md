@@ -13,7 +13,7 @@
 | --- | --- |
 | 名前 | Yuki.Izumi |
 | 生年月日 | 1986/06/16 |
-| Twitter | [@kyrieee_a](https://twitter.com/kyrieee_a) |
+| X | [@kyrieee_a](https://twitter.com/kyrieee_a) |
 | 個人ブログ | [kyrieee.com](kyrieee.com) |
 | Qiita | [@triple321jhango](https://qiita.com/triple321jhango) |
 
@@ -38,6 +38,11 @@
 基本設計において以下を担当
 - 性能設計書作成
 - システム構成図作成
+
+詳細設計において以下のAWSリソースのパラメータシートを作成
+- ネットワーク設計 (VPC, Subnet, Route table, VPC Endpoint, Route53)
+- セキュリティ (AWS Network Firewall, WAF)
+- 外部接続 (CloudFront)
 
 ### 詳細 (基本設計フェーズ)
 性能設計書の作成では性能対策の内容について作成。

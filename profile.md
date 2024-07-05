@@ -42,7 +42,8 @@
 詳細設計において以下のAWSリソースのパラメータシートを作成
 - ネットワーク設計 (VPC, Subnet, Route table, VPC Endpoint, Route53)
 - セキュリティ (AWS Network Firewall, WAF)
-- 外部接続 (CloudFront)
+- 外部接続 (Amazon CloudFront)
+- コンテナ (Amazon EKS)
 
 ### 詳細 (基本設計フェーズ)
 性能設計書の作成では性能対策の内容について作成。
@@ -191,6 +192,7 @@ AzureやGoogleCloudと比較しても、シェア率が一番高いため、情�
     - AWS Certificate Manage (ACM)
     - Amazon CloudFront
     - AWS Network Firewall
+    - Amazon Elastic Kubernetes Service (EKS)
 
 
 
@@ -215,20 +217,10 @@ AzureやGoogleCloudと比較しても、シェア率が一番高いため、情�
     - MySQL
 
 - AWS: 
-    - Amazon Elastic Compute Cloud (EC2)
-    - Amazon Relational Database Service (RDS)
-    - Amazon Virtual Private Cloud (VPC)
-    - Amazon CloudFormation
-    - Amazon VPC Endpoint
-    - Amazon Simple Storage Service (S3)
-    - Amazon Elastic Load Balancing (ELB)
-    - Amazon Route 53
     - Amazon Inspector
     - Amazon Systems Manager
         - State Manager
         - Run Command
-    - AWS Certificate Manage (ACM)
-    - Amazon CloudFront
 
 - コンテナ: 
     - Docker
